@@ -52,21 +52,43 @@ Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitH
 1.添加
 
       ```
- git add ./-A
+git add ./-A
       ```
 
 2.提交
 
       ```
- git commit -m '修改了xxx'
+git commit -m '修改了xxx'
       ```
 
 3.推送
 
 ```
- git push
+git push
 ```
 
 4.Github 通过 pull request 提交代码到源仓库
 
 如果pull request没有通过,下次push依旧会保存在该pull request中
+
+##### 工作区
+
+```就是你在电脑里能看到的目录
+就是你在电脑里能看到的目录
+```
+
+##### 暂存区
+
+```
+Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区
+```
+
+
+
+##### git checkout 命令详解
+
+http://www.tuicool.com/articles/A3Mn6f
+
+##### Git常用命令总结
+
+http://www.cnblogs.com/mengdd/p/4153773.html
